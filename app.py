@@ -34,7 +34,6 @@ if __name__ == '__main__':
    app.run()
 
 
-
 @app.route('/call', methods=['POST'])
 def call():
     content = Auction_housse(["Skin", "Dye", "[Lvl","Mixin","Drill Engine","'Burning Kuudra Core","Plasma","Coffin","◆ Smokey Rune I","Surfboard","Ruby-polished Drill Engine"],1000000,54276615)
